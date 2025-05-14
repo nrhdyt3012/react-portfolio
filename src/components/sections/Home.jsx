@@ -1,0 +1,21 @@
+export const Home = () => {
+    return (
+    <section id="home" className="min-h-screen flex items-center justify-center relative">
+    <div className="text-center z-10 px-4">
+    <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent  leading-right mb-8">Hi, I am Dwi Nurhidayat</h1>
+    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+💡 I have a strong interest in Mobile Development, Backend, Data Analysis, and Frontend Development.
+     I have studied Android application development using Kotlin. 
+     In the data field, I am experienced in data exploration, visualization, and processing using Python, R, and Excel. 
+     For frontend development, I am proficient in HTML, CSS, and JavaScript, as well as frameworks like ReactJS and Vue.js. I also have experience with PHP and Laravel in building responsive and dynamic user interfaces.        
+    </p>
+    <div className="flex justify-center space-x-4">
+        <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
+            View Project
+        </a>
+            </div>
+
+    </div>
+    </section>
+    )
+}
