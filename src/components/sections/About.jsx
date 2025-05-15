@@ -44,6 +44,35 @@ export const About = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold  mb-4 ">🧑‍🎓Education</h3>
+                    <ul className="list-disc list-inside text-gray-300 space-y-2">
+                        <li>
+                            <strong>Information System - Surabaya State of University (2022- Now)</strong>
+                        </li>
+                        <li>
+                            <strong>Relevant Coursework :Data Structure and Algorithm ,Web Development ,Object Oriented Programming</strong>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold  mb-4 ">👨‍💼 Work Experience</h3>
+                    <div className="space-y-4 text-gray-100">
+                           <div>
+                            <h4 className="font-semibold">Mobile Development Cohort on Bangkit Academy (Sep 2024 - Jan 2025)</h4>
+                            <p> Developed application in kotlin language</p>
+                            </div>
+                             <div>
+                            <h4 className="font-semibold">Inten at Koperasi Konsumen Syariah Baitul Makmur Barokah Jatim (Sep 2024 - Jan 2025)</h4>
+                            <p> Developed application in kotlin language</p>
+                            </div>        
+                    </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
